@@ -34,9 +34,4 @@ struct GrepArgs {
     path: Vec<String>,
 }
 
-impl GrepArgs {
-    fn print_pattern(self, user: String) {
-        let pattern = self.pattern;
-        println!("from: {}, pattern: {}", user, pattern)
-    }
-}
+impl GrepArgs {}
